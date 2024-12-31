@@ -95,19 +95,20 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form id="emailForm" method="post" action="https://formspree.io/f/mkggvldw">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required/>
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email" id="email" required/>
+										<span id="error" style="color: red; display: none;">Please enter a valid email address.</span>
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="message" id="message" rows="3" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
@@ -155,6 +156,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/email-form.js"></script>
+
 
 	</body>
 </html>
