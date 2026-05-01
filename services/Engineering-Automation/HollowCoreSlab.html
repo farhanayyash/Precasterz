@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>HollowCoreSlab Plugin for AutoCAD | Engineering Automation | Precasterz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description"
+        content="HollowCoreSlab is an AutoCAD 2021–2024 plugin that automates precast hollow-core slab layouts, openings, core-fills, shop drawings, and BOQ export. Developed by Precasterz.">
+    <meta name="keywords"
+        content="HollowCoreSlab, AutoCAD plugin, precast hollow core slab, HC slab automation, layout placement, shop drawings, BOQ export, BBS, core fill, Precasterz, Doha engineering automation.">
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Farhan Ayyash, Precasterz" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../../assets/css/noscript.css" />
+    </noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../../images/favicon_io/site.webmanifest">
+    <link rel="icon" href="../../images/favicon_io/favicon-32x32.png">
+</head>
+
+<body class="is-preload">
+
+    <div id="wrapper">
+
+        <header id="header">
+            <a href="../../index.html" class="logo">Precasterz</a>
+        </header>
+
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../../index.html">Home</a></li>
+                <li class="active"><a href="../../services.html">Services</a></li>
+                <li><a href="../../Achievements.html">Achievements</a></li>
+                <li><a href="../../about.html">About</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+                <li><a href="../../careers.html">careers</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/company/precasterz/" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/farhanayyash" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61569854956674" class="icon brands fa-facebook" target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/precasterz?igsh=MXExeHh3dml2bWNkMA==" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+            </ul>
+        </nav>
+
+        <div id="main">
+            <section class="post">
+                <header class="major">
+                    <h1>HollowCoreSlab Plugin for AutoCAD</h1>
+                    <p>Parametric automation for precast hollow-core slab layouts. Pick a section, drag a rectangle, and place a fully tagged and dimensioned layout — with openings, core-fills, shop drawings, and BOQ export — from one source of truth. Compatible with <strong>AutoCAD 2021, 2022, 2023, and 2024</strong>.</p>
+                </header>
+
+                <div class="col-6 col-12-small">
+                    <ul class="actions stacked">
+                        <li><a href="../../contact.html" class="button small fit">Request a Demo</a></li>
+                    </ul>
+                </div>
+
+                <hr />
+
+                <h2>Real Output, Real Production Workflow</h2>
+                <p>Every command in HollowCoreSlab targets a real bottleneck in precast slab drafting: the manual placement of pieces, the band-rule arithmetic for cut widths, the trimming of edges around openings, and the redundant re-keying of quantities into Excel. The image below shows a layout placed and committed in a single command, complete with full pieces, cut pieces, CIS infill, two opening shapes, element tags, and dimensions.</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-hero.png" alt="HollowCoreSlab plugin output — full pieces, cut pieces, CIS strips, openings, dimensions, and tags placed in a single command." /></a>
+                <p style="text-align: center; font-style: italic; color: #555; margin-top: -1em;">
+                    Real AutoCAD output: nine pieces, two openings, CIS infill, dimensions and tags — all generated in a single HOLLOWCORESLAB command.
+                </p>
+
+                <hr />
+
+                <h2>Capabilities</h2>
+
+                <dl>
+                    <dt>Section Library</dt>
+                    <dd>
+                        <p>Manage every hollow-core section your factory casts in a JSON-backed library shared across drafters: thickness, standard width, joint clearance, cut bands (min/max), cut increment, and length range. The solver enforces the factory's producible cut widths automatically — it will not pick anything outside your bands.</p>
+                    </dd>
+
+                    <dt>Live Layout Placement</dt>
+                    <dd>
+                        <p>Pick a section, set CIS strip ranges, attach a core-fill criteria template, and drag a rectangle to define the resting area. A live preview shows the proposed layout as you drag, turning red when the current rectangle is infeasible for that section and CIS combination. One click commits the layout with every piece, dimension, and tag in place.</p>
+                    </dd>
+
+                    <dt>Openings — Rectangle and Circle</dt>
+                    <dd>
+                        <p>Place rectangular or circular openings on a slab. Piece edges within the opening footprint auto-trim; aligned dimensions to the surrounding piece edges are placed automatically and remain editable via standard AutoCAD grips. The plugin remembers any manual dimension shifts across rebuilds.</p>
+                    </dd>
+
+                    <dt>Core-Fill Templates with Reinforcement</dt>
+                    <dd>
+                        <p>Define core-fills per piece, or define section-keyed criteria templates that auto-apply to every Full and Cut piece across every layout — bands grouped by cut-width range. Reinforcement (top, bottom, link diameter and spacing) renders as an annotation in the detail sheet, e.g. "Bot 2T16 / Top 2T12 / Stp T8@200".</p>
+                    </dd>
+
+                    <dt>Element Tags Locked Across the Drawing</dt>
+                    <dd>
+                        <p>Generate global element tags across every layout in the drawing using one consistent numbering scheme. Once locked, the same piece identity reuses the same tag number across rebuilds, ensuring shop drawings and BOQ stay in sync.</p>
+                    </dd>
+
+                    <dt>Shop Drawings and BOQ Export</dt>
+                    <dd>
+                        <p>One command renders an enlarged detail sheet of every unique piece type with cell-grid layout, dimensions, mark, quantity, volume, and weight. Another command exports a complete Bill of Quantities plus area summary as an XLSX, ready to attach to a submission. Both reuse the same layout data, so editing the layout updates everything.</p>
+                    </dd>
+                </dl>
+
+                <hr />
+
+                <h2>The Place Layout Dialog</h2>
+                <p>The single entry point for every new slab. Manages your section library, CIS strip options, tag preferences, and core-fill criteria templates in one screen — no hunting through nested menus.</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-place-layout.png" alt="HollowCoreSlab Place Layout dialog — section selection, CIS strip ranges, tag options, and core-fill criteria all in one screen." /></a>
+
+                <hr />
+
+                <h2>Openings with Auto-Trim and Dimensions</h2>
+                <p>Every opening you place trims the surrounding piece edges automatically and emits its own aligned dimensions. Edit later by re-opening the dialog — the trim and dim updates re-flow.</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-opening.png" alt="HollowCoreSlab opening dialog — shape, dimensions, anchor, and click-anchor options for placing rectangular and circular openings." /></a>
+
+                <hr />
+
+                <h2>Core-Fill Criteria Templates</h2>
+                <p>Define section-keyed reinforcement rules once, attach them to a layout, and every Full and Cut piece picks up the right core-fill automatically. Manual fills coexist with templated fills and survive rebuilds.</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-corefill.png" alt="Core-Fill Criteria Templates — section-keyed reinforcement rules with per-range buckets, applied to every layout automatically." /></a>
+
+                <hr />
+
+                <h2>Shop Drawings</h2>
+                <p>Cell-grid detail sheet, one cell per unique piece type. Auto-dimensioned, annotated with HCS Mark, Quantity, Volume, and Weight. Total Quantity sits on its own toggle-able layer so partial-scope sheets can hide it cleanly.</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-detail-sheet.png" alt="HollowCoreSlab enlarged detail sheet — five unique piece types in a cell grid with dimensions, mark, quantity, volume, and weight." /></a>
+
+                <hr />
+
+                <h2>Bills of Quantities — XLSX Export</h2>
+                <p>HCSEXPORTBOQ writes the BOQ directly to XLSX and opens it in Excel — no save prompt. Includes a pieces table (Tag, Section, Kind, Width, Length, Std Width, Balance, Area Delivered, Balance Area, Volume, Weight) and a section summary (Pieces, Cut pieces, HCS area delivered, Balance, Sum).</p>
+
+                <a class="image fit"><img src="../../services/images/hcs-boq.png" alt="HollowCoreSlab BOQ XLSX output — pieces table with full quantities and section summary, ready for submission." /></a>
+
+                <hr />
+
+                <h2>Specifications</h2>
+                <table>
+                    <tbody>
+                        <tr><td><strong>Host application</strong></td><td>AutoCAD 2021, 2022, 2023, 2024 (Windows, x64)</td></tr>
+                        <tr><td><strong>Runtime</strong></td><td>.NET Framework 4.8 (preinstalled with AutoCAD)</td></tr>
+                        <tr><td><strong>Installation</strong></td><td>Drop bundle into ApplicationPlugins, restart AutoCAD</td></tr>
+                        <tr><td><strong>Activation</strong></td><td>Per-machine license file, offline-validated</td></tr>
+                        <tr><td><strong>Network</strong></td><td>Required only at activation; works fully offline after</td></tr>
+                        <tr><td><strong>Data persistence</strong></td><td>Drawing-resident; no cloud upload, no telemetry</td></tr>
+                        <tr><td><strong>Updates</strong></td><td>Free updates within the major version, by email</td></tr>
+                    </tbody>
+                </table>
+
+                <hr />
+
+                <h2>Resources</h2>
+                <ul class="actions">
+                    <li><a href="../../HollowCoreSlab-Catalog.pdf" class="button" target="_blank" rel="noopener noreferrer">Download Catalog (PDF)</a></li>
+                    <li><a href="../../HollowCoreSlab-Manual.pdf" class="button" target="_blank" rel="noopener noreferrer">Download User Manual (PDF)</a></li>
+                    <li><a href="../../contact.html" class="button primary">Request a Demo</a></li>
+                </ul>
+
+            </section>
+        </div>
+
+        <footer id="footer">
+            <section>
+                <form id="emailForm" method="post" action="https://formspree.io/f/mkggvldw">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" required />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3" required placeholder="Tell us about your hollow core slab project, factory, or AutoCAD version..."></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+            </section>
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Address</h3>
+                    <p>Doha - Qatar<br /></p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+97455680307">(+974) 5568-0307</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="mailto:contact@precasterz.com">contact@precasterz.com</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <div id="copyright">
+            <ul><li><a href="https://www.linkedin.com/in/farhan-ayyash/" target="_blank" rel="noopener noreferrer">&copy; Farhan Ayyash</a></li></ul>
+        </div>
+
+    </div>
+
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/email-form.js"></script>
+
+</body>
+</html>
