@@ -16,4 +16,6 @@ if (form && emailInput) {
 
     if (error) error.style.display = 'none';
     // You can submit the form programmatically if needed
- 
+    form.submit();
+  });
+}
