@@ -4691,3 +4691,21 @@ input, select, textarea {
 		}
 		
 	}
+/* --- Precasterz: responsive heading fix (prevent large uppercase H1s overflowing on mobile) --- */
+h1, h2, h3, h4 {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+@media screen and (max-width: 736px) {
+	h1 {
+		font-size: 2.75rem;
+		letter-spacing: 0.05em;
+	}
+	#main header.major > h1,
+	#main header.major h1,
+	#main header.major h2,
+	#main > .post header.major > h1,
+	#main > .post header.major h2 {
+		font-size: 2.4rem !import

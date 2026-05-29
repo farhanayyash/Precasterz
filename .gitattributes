@@ -1,0 +1,16 @@
+# Normalize line endings on commit (kills whole-file CRLF diffs)
+* text=auto
+
+# Treat binary assets correctly (never normalize)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.svg  text
+*.pdf  binary
+*.mp4  binary
+*.eot  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary
