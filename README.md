@@ -1,10 +1,10 @@
 # 🏗️ Precasterz | Precast Engineering & Automation
 
 [![Website](https://img.shields.io/badge/Website-precasterz.com-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.precasterz.com)
-[![Location](https://img.shields.io/badge/Location-Doha%2C%20Qatar-red?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps)
+[![Location](https://img.shields.io/badge/Location-Dubai%2C%20UAE-red?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/company/precasterz/)
 
-**Precasterz** is a specialized engineering firm based in Doha, Qatar, dedicated to providing high-precision precast structural solutions. We bridge the gap between traditional structural engineering and modern digital automation.
+**Precasterz** is a specialized engineering firm based in Dubai, UAE, dedicated to providing high-precision precast structural solutions. We bridge the gap between traditional structural engineering and modern digital automation.
 
 ---
 
@@ -35,8 +35,8 @@ An innovative tool for batch processing and standardized reporting. It automates
 
 | Category | Tools / Technologies |
 | :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript (jQuery) |
-| **Styling** | Massively Framework, Custom Photo Sliders |
+| **Frontend** | HTML5, CSS3, vanilla JavaScript (no framework) |
+| **Styling** | Custom design system (`assets/css/site.css`) |
 | **Forms** | Formspree API Integration |
 | **Engineering** | ETABS API, Concise Beam, Structural Analysis Scripts |
 

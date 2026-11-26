@@ -3,183 +3,217 @@
 
   <url>
     <loc>https://precasterz.com/</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/about.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/careers.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/contact.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/Achievements.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/Lifting.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Engineering-automation.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Engineering-Automation/Bills-of-Quantities.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Engineering-Automation/ETABS-Load-Combination.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Engineering-Automation/Concise-Beam-Autoprinter.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Engineering-Automation/HollowCoreSlab.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://precasterz.com/services/Engineering-Automation/Retaining-Wall-Tool.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://precasterz.com/services/Engineering-Automation/Dapped-End-Design-Sheet.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://precasterz.com/services/Engineering-Automation/Column-Pocket-Design-Sheet.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://precasterz.com/services/Engineering-Automation/Saddle-Frame-Design-Sheet.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/shop-drawings.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/shop-drawings/manholes.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/shop-drawings/foundation.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-<<<<<<< HEAD
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/boundary-wall-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/hollow-core-slab-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://precasterz.com/services/Detailed-Design/double-tee-design.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/prestressed-beam-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/cover-slab-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/footing-foundation-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/retaining-wall-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/firewall-panel-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/building-frame-elements-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/precast-block-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/pylon-signage-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -187,11 +221,9 @@
 
   <url>
     <loc>https://precasterz.com/services/Detailed-Design/yard-handling-frame-design.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-=======
->>>>>>> e30d826723e5a97b794aee6f4aa9aeedf02bb0d7
 </urlset>
