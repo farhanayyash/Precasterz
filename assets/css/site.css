@@ -4,6 +4,7 @@
    ========================================================= */
 
 :root {
+  color-scheme: light dark; /* the site sets its own colours: stops Samsung Internet / Chrome forced dark mode from re-colouring it */
   --ink: #0c0f14;
   --ink-2: #141922;
   --ink-3: #1d2430;
@@ -60,7 +61,10 @@ strong, b { font-weight: 650; }
 .wrap { width: min(var(--wrap), 100% - 40px); margin-inline: auto; }
 .skip { position: absolute; left: -999px; top: 8px; background: var(--gold); color: var(--ink); padding: 8px 14px; border-radius: 8px; z-index: 100; }
 .skip:focus { left: 12px; }
-.gold-text { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.gold-text { color: var(--gold-2); }
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .gold-text { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+}
 .eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
   font: 600 .78rem/1 var(--font-body); letter-spacing: .16em; text-transform: uppercase;
@@ -90,7 +94,7 @@ strong, b { font-weight: 650; }
 .btn-ghost:hover { border-color: var(--ink); }
 .dark .btn-ghost, .hero .btn-ghost, .cta-band .btn-ghost, .highlight .btn-ghost, .track.alt .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, .28); }
 .dark .btn-ghost:hover, .hero .btn-ghost:hover, .cta-band .btn-ghost:hover, .highlight .btn-ghost:hover { border-color: #fff; background: rgba(255, 255, 255, .06); }
-.btn-sm { padding: 10px 18px; font-size: .88rem; }
+.btn-sm { padding: 10px 18px; font-size: .88rem; white-space: nowrap; }
 .btn-block { width: 100%; }
 .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
 .link-arrow { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--ink); }
@@ -392,7 +396,7 @@ body.lock { overflow: hidden; }
 .input, .form input[type=text], .form input[type=email], .form input[type=tel], .form input[type=url], .form select, .form textarea {
   width: 100%; font: inherit; font-size: .98rem; color: var(--text);
   padding: 13px 15px; border-radius: 12px; border: 1px solid var(--line); background: #fff;
-  transition: border-color .2s, box-shadow .2s;
+  transition: border-color .2s, box-shadow .2s; color-scheme: light;
 }
 .form textarea { resize: vertical; min-height: 120px; }
 .form input:focus, .form select:focus, .form textarea:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 4px rgba(201, 151, 58, .18); }
@@ -406,7 +410,7 @@ body.lock { overflow: hidden; }
 .form-status.ok { display: block; background: #eaf6ee; color: #1d6b3a; }
 .form-status.err { display: block; background: #fdeeee; color: #9b2525; }
 .dark .field label, .site-footer .field label { color: #e8ebf0; }
-.dark .form input, .dark .form textarea, .dark .form select, .site-footer .form input, .site-footer .form textarea { background: var(--ink-3); border-color: var(--line-dark); color: #fff; }
+.dark .form input, .dark .form textarea, .dark .form select, .site-footer .form input, .site-footer .form textarea { background: var(--ink-3); border-color: var(--line-dark); color: #fff; color-scheme: dark; }
 .dark .form-note, .site-footer .form-note { color: var(--muted-dark); }
 
 /* contact page */
@@ -568,6 +572,7 @@ a.info:hover { border-color: var(--gold); }
   .chip.k2 { left: 0; }
   .hero-meta { grid-template-columns: 1fr 1fr; gap: 18px; }
   .btn { white-space: normal; text-align: center; }
+  .header-cta .btn { white-space: nowrap; padding: 10px 14px; }
   .footer-form { padding: 24px 18px; }
 }
 .cta-band p a, .highlight p a { color: var(--gold-2); }
