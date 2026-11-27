@@ -4,7 +4,7 @@
    ========================================================= */
 
 :root {
-  color-scheme: light dark; /* the site sets its own colours: stops Samsung Internet / Chrome forced dark mode from re-colouring it */
+  color-scheme: dark light; /* the site sets its own colours: stops Samsung Internet / Chrome forced dark mode from re-colouring it */
   --ink: #0c0f14;
   --ink-2: #141922;
   --ink-3: #1d2430;
@@ -576,3 +576,13 @@ a.info:hover { border-color: var(--gold); }
   .footer-form { padding: 24px 18px; }
 }
 .cta-band p a, .highlight p a { color: var(--gold-2); }
+
+/* ---------- Forced dark mode (LinkedIn / Facebook in-app browsers, Samsung Internet) ----------
+   These browsers darken light backgrounds, which turns gold gradients brown.
+   An inline check in <head> adds html.fd; use solid gold text and
+   dark, gold-outlined buttons, which their dark mode leaves alone. */
+html.fd .gold-text, html.fd .step::before { background: none; -webkit-text-fill-color: currentColor; color: #f0d27a; }
+html.fd .btn-gold, html.fd .prose a.btn-gold { background: #0c0f14; color: #f0d27a; border: 2px solid #f0d27a; box-shadow: none; }
+html.fd .btn-gold:hover, html.fd .prose a.btn-gold:hover { background: #1d2430; color: #f0d27a; }
+html.fd .btn-gold svg { color: #f0d27a; }
+html.fd .eyebrow::before, html.fd .menu::before { background: #f0d27a; }
